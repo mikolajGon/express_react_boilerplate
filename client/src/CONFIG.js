@@ -1,18 +1,11 @@
-const INITIAL_STATE = {
-  AUTH: {
+export const INITIAL_STATE = {
+  auth: {
     authenticated: localStorage.getItem('token'),
     errorMessage: ''
   }
-}
+};
 
-const ACTION_TYPES = {
+export const ACTION_TYPES = {
   AUTH_USER: 'auth_user',
-  AUTH_ERR: 'auth_err',
-}
-
-const CONFIG = {
-  INITIAL_STATE,
-  ACTION_TYPES
-}
-
-export default CONFIG;
+  AUTH_ERR: 'auth_err'
+};

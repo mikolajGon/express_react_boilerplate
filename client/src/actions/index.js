@@ -1,7 +1,7 @@
 import axios from 'axios';
-import CONFIG from '../CONFIG';
+import { ACTION_TYPES } from '../CONFIG';
 
-const { ACTION_TYPES: { AUTH_USER, AUTH_ERR } } = CONFIG;
+const { AUTH_USER, AUTH_ERR } = ACTION_TYPES;
 
 // export const signup = ({ email, password }) => {
 //  return (dispatch) => {
