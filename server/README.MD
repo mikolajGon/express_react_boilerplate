@@ -1,4 +1,4 @@
-# REACT AUTHENTICATION BOILERPLATE - CLIENT SIDE
+# EXPRESS AUTHENTICATION BOILERPLATE - SERVER SIDE
 
 This project was made with greate support of Stephen Grider with [Advanced React and Redux: 2018 Edition](https://www.udemy.com/react-redux-tutorial/)
 Small changes applied, comparing to course, to fit my needs
